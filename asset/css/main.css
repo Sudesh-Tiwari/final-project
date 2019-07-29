@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|PT+Serif:400,400i,700,700i|Pacifico&display=swap&subset=cyrillic");
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.topbar {
+  background-color: #1a9ce6;
+  color: #ffffff;
+}
+
+.topbar div {
+  padding-top: 0.5rem;
+}
+
+.topbar div a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.4rem;
+}
+
+.topbar div a:hover {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 769px) {
+  .topbar {
+    text-align: center;
+  }
+}
+
+nav {
+  background-color: #ffffff;
+  font-family: "PT Serif", serif;
+}
+
+nav div .navbar {
+  -webkit-box-align: baseline !important;
+      -ms-flex-align: baseline !important;
+          align-items: baseline !important;
+}
+
+nav div .navbar-brand {
+  padding: 0 !important;
+  font-family: "Pacifico", cursive;
+  text-transform: capitalize;
+  font-size: 4rem;
+}
+
+nav div a {
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 3rem !important;
+  color: #1a9ce6;
+}
+
+nav div a:hover {
+  font-weight: bold;
+}
+
+nav div form > a {
+  padding: 0 !important;
+}
+
+@media screen and (max-width: 1025px) {
+  nav div .navbar-brand {
+    font-size: 2rem;
+    padding-left: 0;
+  }
+  nav div a {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  nav div .navbar-brand {
+    font-size: 2rem;
+    padding-left: 1.6rem !important;
+  }
+}
+
+.navbar > .container, .navbar > .container-fluid {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.banner-text {
+  font-family: "PT Serif", serif;
+  position: absolute;
+  top: 55%;
+  left: 28%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.banner-text h1 {
+  font-size: 6rem;
+  font-weight: 900;
+}
+
+.banner-text hr {
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  margin-left: 0;
+  border-top: 0.2rem solid #707070;
+  width: 18.5rem;
+}
+
+.banner-text p {
+  font-size: 2.4rem;
+  color: #707070;
+}
+
+@media screen and (max-width: 1025px) {
+  .banner-text {
+    top: 47%;
+    left: 23%;
+  }
+  .banner-text h1 {
+    font-size: 5rem;
+  }
+  .banner-text hr {
+    width: 15rem;
+  }
+  .banner-text p {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .banner-text {
+    top: 37%;
+    left: 25%;
+  }
+  .banner-text h1 {
+    font-size: 4rem;
+  }
+  .banner-text hr {
+    width: 12rem;
+    margin-top: 1.8rem;
+    margin-bottom: 2rem;
+  }
+  .banner-text p {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .banner-text {
+    top: 32%;
+    left: 26%;
+  }
+  .banner-text h1 {
+    font-size: 2.2rem;
+  }
+  .banner-text hr {
+    width: 7rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  .banner-text p {
+    font-size: 0.9rem;
+  }
+}
+
+.banner {
+  position: relative;
+}
+
+.banner-box-grid {
+  position: absolute;
+  z-index: 1073;
+  top: 85%;
+}
+
+.banner-box {
+  padding: 2rem;
+  margin-right: 2rem;
+  width: 33rem;
+}
+
+.banner-box .event {
+  color: #70707059;
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.banner-box .date {
+  font-size: 3rem;
+  font-weight: 700;
+  padding-top: 1rem;
+}
+
+.banner-box .title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.7rem;
+  color: rgba(112, 112, 112, 0.769);
+}
+
+.banner-box hr {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  margin-left: 0;
+  border-top: 0.1rem solid #707070;
+  width: 8.5rem;
+}
+
+.banner-box .time {
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.banner-box button {
+  text-transform: uppercase;
+  border: 0;
+  background-color: #1a9ce6;
+  padding: 0.6rem 2rem;
+  font-weight: 700;
+}
+
+.banner-box-last {
+  padding: 2rem;
+  margin-right: 2rem;
+  width: 33rem;
+}
+
+.banner-box-last h2 {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 3.4rem;
+  color: #4d4d4d;
+  margin: 3rem 0;
+}
+
+.banner-box-last button {
+  text-transform: uppercase;
+  border: 0.2rem solid #1a9ce6;
+  background-color: #ffffff;
+  color: #1a9ce6;
+  padding: 1.5rem 5rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.banner-box-last p {
+  font-size: 1.4rem;
+  -webkit-text-decoration: underline #707070;
+          text-decoration: underline #707070;
+  text-transform: capitalize;
+  border-bottom: #707070;
+  margin-top: 1rem;
+  color: #1a9ce6;
+}
+
+.LMS {
+  padding: 10rem 0;
+}
+
+.LMS h2 {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 2.5rem;
+}
+
+.LMS p {
+  font-family: "PT Serif", serif;
+  font-size: 1.6rem;
+  margin: 2rem 0;
+}
+
+.LMS button {
+  text-transform: uppercase;
+  border: 0;
+  background-color: #1a9ce6;
+  padding: 0.6rem 2rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
+}
+
+.interested {
+  background-color: #f7f7f7;
+  background: linear-gradient(167deg, #f7f7f7 69%, #ffffff 25%);
+  padding: 8rem 0;
+  border-top: 0.1rem solid #70707052;
+}
+
+.interested .box {
+  background-color: #ffffff;
+  margin: 0 2rem;
+  margin-left: 0;
+  padding: 7rem;
+}
+
+.interested h2 {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  margin-bottom: 5rem;
+  font-size: 3rem;
+}
+
+.interested i {
+  font-size: 8rem;
+}
+
+.interested img {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.interested p {
+  font-size: 2rem;
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  color: #707070;
+}
+
+.courses {
+  background-color: #ffffff;
+}
+
+.courses h2 {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+}
+/*# sourceMappingURL=main.css.map */
